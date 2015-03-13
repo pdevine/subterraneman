@@ -18,3 +18,4 @@ COPY levels/* subterraneman/levels/
 USER developer
 ENV HOME /home/developer
 
+CMD cd /subterraneman && python run_game.py
